@@ -8,7 +8,7 @@ describe('Set', function() {
     });
   });
 
-  it('Should handle simple addition', function() {
+  it('should handle simple addition', function() {
     var set = new Set(),
         i;
 
@@ -29,7 +29,7 @@ describe('Set', function() {
     set.length.should.equal(0);
   });
 
-  it('Should count duplicates only once', function() {
+  it('should count duplicates only once', function() {
     var set = new Set();
 
     for (var i = 0; i < 100; ++i) {
@@ -39,7 +39,7 @@ describe('Set', function() {
     set.length.should.equal(1);
   });
 
-  it('Should be iterable', function() {
+  it('should be iterable', function() {
     var set = new Set(),
       nums = {};
 
