@@ -23,7 +23,7 @@ describe('Set', function() {
     }
 
     for (i = 0; i < 10; ++i) {
-      set.remove(i);
+      set.delete(i);
     }
 
     set.length.should.equal(0);
